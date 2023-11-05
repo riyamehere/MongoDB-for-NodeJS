@@ -1,0 +1,54 @@
+Chapter 1: Driver Setup
+
+MFlix Application Architecture
+
+Problem:
+During this course, which are some of the files that you will have to edit?
+
+ANS- 
+commentsDao.js
+moviesDao.js
+
+----------------------------------------------------------------------------
+Asynchronous Programming in Node.js
+Problem:
+
+Select the true statements below.
+
+ANS-
+1. All await statements should be surrounded by a try/catch block.
+2. To use the await keyword, the enclosing function must be marked async.
+3. If a callback isn't provided, asynchronous methods in the Node driver will return a Promise.
+
+----------------------------------------------------------------------------
+Basic Reads
+
+Problem:
+Which of the following statements is true regarding reads in MongoDB?
+
+ANS- 
+1. We must explicitly remove the _id field in a projection if we do not want to include this field.
+2. Field projection is specified as a JSON object.
+
+----------------------------------------------------------------------------
+Ticket: Projection
+Problem:
+
+User Story
+"As a user, I'd like to be able to search movies by country and see a list of movie titles. I should be able to specify a comma-separated list of countries to search multiple countries."
+
+Task
+Implement the getMoviesByCountry method in src/dao/moviesDAO.js to search movies by country and use projection to return the title and _id field. The _id field will be returned by default.
+
+ANS- 5a94762f949291c47fa6474d
+
+----------------------------------------------------------------------------
+Ticket: Text and Subfield Search
+
+Problem:
+User Story
+"As a user, I'd like to be able to search movies by cast members, genre, or perform a text search of the plot summary, full plot, and title."
+
+ANS- 5a96a6a29c453a40d04922cc
+
+

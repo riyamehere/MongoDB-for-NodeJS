@@ -1,0 +1,20 @@
+Chapter 3 quiz
+
+Read Concerns
+Problem:
+Which of the following Read Concerns are valid in a 3-node replica set?
+
+ans-
+"local" and "majority"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bulk Writes
+Problem:
+Which of the following is true about bulk writes?
+
+ans-
+1. Bulk writes decrease the effect of latency on overall operation time.
+2. By default, bulk writes are ordered.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ticket migration

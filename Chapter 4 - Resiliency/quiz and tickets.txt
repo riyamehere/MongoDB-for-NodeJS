@@ -1,0 +1,33 @@
+Chapter 4 quiz
+
+Chapter 4: Resiliency
+
+Connection Pooling
+
+Problem:
+Which of the following are benefits of connection pooling?
+ans-
+1. A large influx of operations can be handled more quickly with a pool of existing connections.
+2. New operations can be serviced with pre-existing connections, so a new connection doesn't have to be created each time.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Robust Client Configuration
+
+Problem:
+When should you set a wtimeout?
+ans- When our application is using a Write Concern more durable than w: 1.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Error Handling
+
+Problem:
+Given a replica set with 5 nodes which write concern will cause an error when writing?
+ans - 7
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ticket: 
+problem : Connection Pooling
+
+code : 5ad4f4f58d4b377bcf55d742
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
